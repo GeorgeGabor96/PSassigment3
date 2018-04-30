@@ -1,9 +1,9 @@
 package TestGetDataServices;
 
-import Model.Entities.Artist;
-import Model.Services.ArtistServices.EcArtistsCachedService;
-import Model.Services.ArtistServices.EcArtistsWebService;
-import Model.Services.ArtistServices.IArtistsService;
+import SOA.Model.Entities.Artist;
+import SOA.Model.Services.ArtistServices.ArtistDataServices.EcArtistsCachedService;
+import SOA.Model.Services.ArtistServices.ArtistDataServices.EcArtistsWebService;
+import SOA.Model.Services.ArtistServices.ArtistDataServices.IArtistsService;
 import org.junit.Test;
 
 import java.util.List;

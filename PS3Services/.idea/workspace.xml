@@ -13,107 +13,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EcArtistsServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestGetDataServices/EcArtistsServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcWeatherWebServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestGetDataServices/EcWeatherWebServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IArtistsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/IArtistsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IWeatherService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/IWeatherService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcWeatherWebService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherWebService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EcWeatherCachedService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherCachedService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherDataServices/EcWeatherCachedService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcArtistsCachedService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/EcArtistsCachedService.java">
+      <file leaf-file-name="WeatherServiceImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcArtistsWebService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/EcArtistsWebService.java">
+      <file leaf-file-name="EcArtistsCachedService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistDataServices/EcArtistsCachedService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="218">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,9 +73,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/Weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Services/EcArtistsWebService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherWebServiec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/Weather.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGetDataServices/ArtistWebTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/Artist.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGetDataServices/EcArtistsWebServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/IArtistsService.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGetDataServices/EcArtistCachedServiceTest.java" />
@@ -159,6 +84,25 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherCachedService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/EcArtistsCachedService.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGetDataServices/EcWeatherWebServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/WeatherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/WeatherServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/ArtistDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entities/WeatherDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/ArtistService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/ArtistServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestControlServices/ArtistServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestControlServices/WeatherServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/ArtistController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/WeatherServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOA/Controllers/ArtistController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherDataServices/EcWeatherCachedService.java" />
       </list>
     </option>
   </component>
@@ -167,6 +111,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -217,7 +166,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
@@ -225,6 +174,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS3Services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,6 +192,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Entities" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -242,6 +202,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -251,6 +212,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
               <item name="ArtistServices" type="462c0819:PsiDirectoryNode" />
@@ -261,6 +223,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="ArtistServices" type="462c0819:PsiDirectoryNode" />
+              <item name="ArtistDataServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS3Services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
               <item name="WeatherServices" type="462c0819:PsiDirectoryNode" />
@@ -271,7 +246,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="RestService" type="462c0819:PsiDirectoryNode" />
+              <item name="SOA" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="WeatherServices" type="462c0819:PsiDirectoryNode" />
+              <item name="WeatherDataServices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +264,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS3Services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestControlServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS3Services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS3Services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestGetDataServices" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,29 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in PS3Services">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestService.Application" />
-      <module name="PS3Services" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="EcArtistsWebService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Model.Services.ArtistServices.EcArtistsWebService" />
-      <module name="PS3Services" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.Services.ArtistServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -367,19 +340,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EcArtistsServiceTest.testCachedArtistService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArtistServiceTest.testGetArtistsWithDataHour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PS3Services" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestGetDataServices.*" />
+          <option name="PATTERN" value="TestControlServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="TestGetDataServices" />
-      <option name="MAIN_CLASS_NAME" value="TestGetDataServices.EcArtistsServiceTest" />
-      <option name="METHOD_NAME" value="testCachedArtistService" />
+      <option name="PACKAGE_NAME" value="TestControlServices" />
+      <option name="MAIN_CLASS_NAME" value="TestControlServices.ArtistServiceTest" />
+      <option name="METHOD_NAME" value="testGetArtistsWithDataHour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -390,7 +363,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EcArtistsServiceTest.testGetArtistWebService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EcWeatherWebServiceTest.testGetWeatherWebService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PS3Services" />
       <extension name="coverage">
         <pattern>
@@ -401,8 +374,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="TestGetDataServices" />
-      <option name="MAIN_CLASS_NAME" value="TestGetDataServices.EcArtistsServiceTest" />
-      <option name="METHOD_NAME" value="testGetArtistWebService" />
+      <option name="MAIN_CLASS_NAME" value="TestGetDataServices.EcWeatherWebServiceTest" />
+      <option name="METHOD_NAME" value="testGetWeatherWebService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WeatherServiceTest.testGetRainChanceDayHour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PS3Services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestControlServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TestControlServices" />
+      <option name="MAIN_CLASS_NAME" value="TestControlServices.WeatherServiceTest" />
+      <option name="METHOD_NAME" value="testGetRainChanceDayHour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -429,6 +425,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PS3Services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SOA.Application" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -452,19 +452,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.EcArtistsWebService" />
-      <item itemvalue="JUnit.EcArtistsServiceTest.testGetArtistWebService" />
+      <item itemvalue="JUnit.ArtistServiceTest.testGetArtistsWithDataHour" />
+      <item itemvalue="JUnit.WeatherServiceTest.testGetRainChanceDayHour" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.All in PS3Services" />
-      <item itemvalue="JUnit.EcArtistsServiceTest.testCachedArtistService" />
+      <item itemvalue="JUnit.EcWeatherWebServiceTest.testGetWeatherWebService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.EcWeatherWebServiceTest.testGetWeatherWebService" />
+        <item itemvalue="JUnit.ArtistServiceTest.testGetArtistsWithDataHour" />
         <item itemvalue="JUnit.All in PS3Services" />
-        <item itemvalue="JUnit.EcArtistsServiceTest.testCachedArtistService" />
-        <item itemvalue="JUnit.EcArtistsServiceTest.testGetArtistWebService" />
-        <item itemvalue="Application.EcArtistsWebService" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.WeatherServiceTest.testGetRainChanceDayHour" />
       </list>
     </recent_temporary>
   </component>
@@ -478,50 +478,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525088232604</updated>
-      <workItem from="1525088234292" duration="10263000" />
+      <workItem from="1525088234292" duration="17643000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_PS3Services - 2018.04.30 at 16h 45m 55s.xml">
+    <history-entry file="ArtistServiceTest - 2018.04.30 at 18h 24m 02s.xml">
+      <configuration name="ArtistServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArtistServiceTest_testGetArtistsWithStage - 2018.04.30 at 18h 25m 47s.xml">
+      <configuration name="ArtistServiceTest.testGetArtistsWithStage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArtistServiceTest_testGetArtistsWithDataHour - 2018.04.30 at 18h 28m 47s.xml">
+      <configuration name="ArtistServiceTest.testGetArtistsWithDataHour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArtistServiceTest - 2018.04.30 at 18h 34m 42s.xml">
+      <configuration name="ArtistServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest_testGetRainChanceDayHour - 2018.04.30 at 18h 43m 06s.xml">
+      <configuration name="WeatherServiceTest.testGetRainChanceDayHour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_PS3Services - 2018.04.30 at 18h 52m 34s.xml">
       <configuration name="All in PS3Services" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PS3Services - 2018.04.30 at 16h 47m 31s.xml">
-      <configuration name="All in PS3Services" configurationId="JUnit" />
+    <history-entry file="ArtistServiceTest_testGetArtistsWithDataHour - 2018.04.30 at 19h 10m 31s.xml">
+      <configuration name="ArtistServiceTest.testGetArtistsWithDataHour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PS3Services - 2018.04.30 at 17h 09m 49s.xml">
-      <configuration name="All in PS3Services" configurationId="JUnit" />
+    <history-entry file="ArtistServiceTest_testGetArtistsWithDataHour - 2018.04.30 at 19h 10m 56s.xml">
+      <configuration name="ArtistServiceTest.testGetArtistsWithDataHour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 14m 40s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
+    <history-entry file="EcWeatherWebServiceTest_testGetWeatherWebService - 2018.04.30 at 19h 27m 51s.xml">
+      <configuration name="EcWeatherWebServiceTest.testGetWeatherWebService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 16m 03s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 17m 16s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 18m 22s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 18m 38s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EcArtistsServiceTest_testCachedArtistService - 2018.04.30 at 17h 19m 03s.xml">
-      <configuration name="EcArtistsServiceTest.testCachedArtistService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_PS3Services - 2018.04.30 at 17h 26m 29s.xml">
-      <configuration name="All in PS3Services" configurationId="JUnit" />
+    <history-entry file="EcWeatherWebServiceTest_testGetWeatherWebService - 2018.04.30 at 19h 31m 38s.xml">
+      <configuration name="EcWeatherWebServiceTest.testGetWeatherWebService" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10263000" />
+    <option name="totallyTimeSpent" value="17643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50065106" side_tool="true" weight="0.32551724" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
@@ -532,16 +532,16 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32551724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.32551724" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32914925" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21158855" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32827586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21158855" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
@@ -562,7 +562,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -575,28 +575,6 @@
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GreetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -635,26 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entities/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entities/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGetDataServices/EcArtistCachedServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -665,7 +623,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/EcArtistsWebService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherDataServices/IWeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistDataServices/EcArtistsWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -677,68 +645,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/IWeatherService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GreetingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="152">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/IArtistsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistDataServices/IArtistsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="67" />
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherWebService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Entities/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="204">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/WeatherServices/EcWeatherCachedService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Entities/ArtistDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="203">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Services/ArtistServices/EcArtistsCachedService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGetDataServices/EcArtistsServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="799">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=PS3Services">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=PS3Services</OriginalElement>
+          <nodes>
+            <node x="" y="">module=PS3Services</node>
+            <node x="" y="">fileset=PS3Services/Application</node>
+            <node x="" y="">SOA.Application</node>
+            <node x="" y="">SOA.Model.Services.ArtistServices.ArtistServiceImp</node>
+            <node x="" y="">SOA.Model.Services.WeatherServices.WeatherServiceImp</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+            <node x="" y="" />
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="334.0" y="70.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category />
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Entities/WeatherDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Entities/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Controllers/ArtistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestControlServices/ArtistServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestControlServices/WeatherServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -747,8 +817,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGetDataServices/EcWeatherWebServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="187">
           <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherDataServices/EcWeatherWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/WeatherServices/WeatherDataServices/EcWeatherCachedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOA/Model/Services/ArtistServices/ArtistDataServices/EcArtistsCachedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

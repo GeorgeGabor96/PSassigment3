@@ -1,9 +1,9 @@
 package TestGetDataServices;
 
-import Model.Entities.Weather;
-import Model.Services.WeatherServices.EcWeatherCachedService;
-import Model.Services.WeatherServices.EcWeatherWebService;
-import Model.Services.WeatherServices.IWeatherService;
+import SOA.Model.Entities.Weather;
+import SOA.Model.Services.WeatherServices.WeatherDataServices.EcWeatherCachedService;
+import SOA.Model.Services.WeatherServices.WeatherDataServices.EcWeatherWebService;
+import SOA.Model.Services.WeatherServices.WeatherDataServices.IWeatherService;
 import org.junit.Test;
 
 import java.util.List;

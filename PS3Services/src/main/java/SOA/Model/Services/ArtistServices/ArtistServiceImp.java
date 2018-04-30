@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 @Configuration
 public class ArtistServiceImp implements ArtistService{
@@ -24,66 +26,37 @@ public class ArtistServiceImp implements ArtistService{
     @Override
     public List<String> getAllArtists()
     {
-        List<String> artistNames = new ArrayList<>();
-        List<Artist> artists = iArtistsService.getArtistData();
-        for (Artist artist: artists)
-        {
-            artistNames.add(artist.getArtistName());
-        }
-
-        return artistNames;
+        return iArtistsService.getArtistData().stream()
+                        .map(Artist::getArtistName)
+                        .collect(Collectors.toList());
     }
 
     @Override
     public List<String> getArtistsWithStage(String stageName)
     {
-        List<String> artistsNames = new ArrayList<>();
-        List<Artist> artists = iArtistsService.getArtistData();
-
-        for (Artist artist: artists)
-        {
-            if (artist.getStage().equals(stageName))
-            {
-                artistsNames.add(artist.getArtistName());
-            }
-        }
-
-        return artistsNames;
+        return iArtistsService.getArtistData().stream()
+                            .filter(p -> p.getStage().equals(stageName))
+                            .map(Artist::getArtistName)
+                            .collect(Collectors.toList());
     }
 
     @Override
     public List<String> getArtistsWithDataHour(int date, int hour)
     {
-
-        List<String> artistsNames = new ArrayList<>();
-        List<Artist> artists = iArtistsService.getArtistData();
-
-        for (Artist artist: artists)
-        {
-            if (artist.getDay() == date && artist.getHour() == hour)
-            {
-                artistsNames.add(artist.getArtistName());
-            }
-        }
-
-        return artistsNames;
+        return iArtistsService.getArtistData().stream()
+                            .filter(p -> p.getDay() == date && p.getHour() == hour)
+                            .map(Artist::getArtistName)
+                            .collect(Collectors.toList());
     }
 
     @Override
     public ArtistDetails getDetailsForArtist(String artistName)
     {
-        List<Artist> artists = iArtistsService.getArtistData();
-        ArtistDetails artistDetails = null;
-
-        for (Artist artist: artists)
-        {
-            if (artist.getArtistName().equals(artistName))
-            {
-                artistDetails = new ArtistDetails(artist.getStage(), artist.getDay(), artist.getHour());
-            }
-        }
-
-        return artistDetails;
+        return iArtistsService.getArtistData().stream()
+                            .filter(p -> p.getArtistName().equals(artistName))
+                            .findFirst()
+                            .map(p -> new ArtistDetails(p.getStage(), p.getDay(), p.getHour()))
+                            .orElse(null);
     }
 
 

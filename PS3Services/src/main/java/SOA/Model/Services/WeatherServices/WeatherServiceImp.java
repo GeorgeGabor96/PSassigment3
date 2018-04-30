@@ -22,17 +22,11 @@ public class WeatherServiceImp implements WeatherService {
     @Override
     public int getRainChanceDayHour(int day, int hour)
     {
-        List<Weather> weatherList = iWeatherService.getWeatherData();
-
-        for (Weather weather: weatherList)
-        {
-            if (weather.getDay() == day && weather.getHour() == hour)
-            {
-                return weather.getRainChance();
-            }
-        }
-
-        return -1;
+        return iWeatherService.getWeatherData().stream()
+                            .filter(p -> p.getDay() == day && p.getHour() == hour)
+                            .findFirst()
+                            .map(p -> p.getRainChance())
+                            .orElse(-1);
     }
 
     public void setiWeatherService(IWeatherService iWeatherService)

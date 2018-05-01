@@ -37,7 +37,7 @@ public class ArtistController {
 
 
     @RequestMapping(value = "/api/artists", params = {"day", "hour"})
-    public List<String> getArtistsWithStage(@RequestParam(value="day") Integer day, @RequestParam(value="hour") Integer hour) {
+    public List<String> getArtistsWithDayHour(@RequestParam(value="day") Integer day, @RequestParam(value="hour") Integer hour) {
         System.out.println(day);
         if (hour >= 5 && hour <= 10 && day > 0) {
             return artistService.getArtistsWithDataHour(day, hour);

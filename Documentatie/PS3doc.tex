@@ -88,7 +88,8 @@ Urmatoarele cerinte trebuie respectate:
 	\item 	servicile secundare vor fi create utiliz\^{a}nd https://sheetsu.com/;
 	\item 	utilizarea pattern-ului Chain of Responsibility;
 	\item	utilizarea arhitecturii SOA;
-	\item 	implementarea funcționalității de cache cu timp de expirare a datelor asupra informaților returnate de servicile secundare.
+	\item 	implementarea funcționalității de cache cu timp de expirare a datelor asupra informaților returnate de servicile secundare;
+	\item 	utilizare https://sheetsu.com pentru crearea API de returnare date despre artiști și vreme.
 \end{itemize}
 
 \section{Use Case Model}
@@ -101,8 +102,8 @@ Extensii: Operatia poate eșua dacă:
 \begin{itemize}
 	\item intervine o problemă cu serviciul de informații pentru artiști.
 \end{itemize}
-\newpage
-%\includegraphics[height=.5\textheight]{useCases}
+
+\includegraphics[height=.5\textheight]{useCases}
 
 
 \section{Design-ul arhitectural al sistemului}
@@ -129,21 +130,22 @@ Deasemenea este utilizat Service Oriented Architecture, aplicația utiliz\^{a}nd
 
 \subsection{Diagrame}
 
-Urmatoarea diagrama prezinta structura pachetelor din sistem :
-\newpage
-%\includegraphics[height=.4\textheight, width=.4\textwidth]{packages} \\
+Urmatoarea diagrama prezinta structura pachetelor din sistem : \\
+\\
+\includegraphics[height=.4\textheight, width=.8\textwidth]{packages} \\
+\\
 Diagrama de componente: \\
 \\
-%\includegraphics[width=.6\textheight]{components} \\
+\includegraphics[width=.6\textheight]{components} \\
 \\
 Diagrama de deployment: \\
 \\
-%\includegraphics[width=.6\textheight]{deployment} \\
+\includegraphics[width=.6\textheight]{deployment} \\
 
 
 \section{Diagrame de secventa UML}
-Consideram scenariul în care administratorul dorește să adauge un produs: \\
-%\includegraphics[width=.6\textheight]{secventa}
+Consideram scenariul în care se face o cerere de returnare a artiștilor ce au spectacol pe o anumită scenă: \\ \\
+\includegraphics[width=.6\textheight]{secventa}
 
 
 \section{Design-ul claselor}
@@ -152,40 +154,41 @@ Consideram scenariul în care administratorul dorește să adauge un produs: \\
 
 Au fost utilizate urmatoarele:
 \begin{itemize}
-	\item Composite - Clasele Product și Category formează o ierarhie, o instanță a clasei Category conține o listă de instanțe a clasei Product;
-	\item Repository - ProductRepository și CategoryRepository se ocupă de accesul la baza de date;
+	\item Chain of responsability - Clasa EcArtistsCachedService returnează în mod normal datele despre artiști, dau uneori cere clasei EcArtistsWebService datele pentru a le reîmprospăta. Comunicarea se face utiliz\^{a}nd interfața IArtistsService.
+	\item Composite - WeatherDetails are ca atribut o instanță a clasei ArtistDetails;
 \end{itemize}
 
-\newpage
 \subsection{Diagrama de clase}
-%\includegraphics[height=.5\textheight, width=1\textwidth]{class}
+\includegraphics[height=.7\textheight, width=1.3\textwidth]{class}
 \newpage
 
 \section{Model de date}
 
-Baza de date in care sunt stocate informatiile este urmatoare: \\
-%\includegraphics[height=.5\textheight, width=.8\textwidth]{database} \\
-Dupa cum se poate, vedea exista două tabele:
-\begin{itemize}
-	\item Product - atributul category\_id face legătura unui produc cu o categorie;
-	\item Category - atributul parent\_id leaga o categorie de o subcategorie.
-\end{itemize}
+Datele au fost stocate utiliz\^{a}nd Google Spreadsheet. Tabelele av\^and următoarea formă: \\ \\
+\includegraphics[height=.4\textheight, width=.6\textwidth]{artisti} \\ \\
+\includegraphics[height=.35\textheight, width=.5\textwidth]{vreme} \\
+
 
 
 \section{Testarea sistemului}
 
-S-a folosit o strategie de testare incrementală, funcționalitățile au fost verificate pe măsură ce au fost adăugate in sistem. Astfel, principalele metode de testare au fost data-flow (au fost date anumite intrări si s-a observat raspunsul sistemului), white-box (codul a fost disponibil).
+S-a folosit o strategie de testare incrementală, funcționalitățile au fost verificate pe măsură ce au fost adăugate in sistem. Astfel, principalele metode de testare au fost:
+\begin{itemize}
+	\item Unit testing - au fost create două pachete TestControlServices( verificare prelucrarea datelor) și TestGetDataServices( verificare returnare date de la servicii);
+	\item data-flow (au fost date anumite intrări si s-a observat raspunsul sistemului);
+	\item white-box (codul a fost disponibil).
+\end{itemize}
 
 \section{Bibliografie}
 
-Pentru utilizare Spring Boot și JPA:
+Pentru utilizare Spring Boot și Servicii Rest:
 \begin{itemize}
-	\item \url{https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x}  \\
+	\item \url{https://spring.io/guides/gs/rest-service/}  
+	\item \url{https://spring.io/guides/gs/consuming-rest/}
 \end{itemize}
-Pentru anumite erori și html:
+Pentru anumite erori:
 \begin{itemize}
-	\item \url{https://stackoverflow.com/}
-	\item \url{https://www.youtube.com/}	
+	\item \url{https://stackoverflow.com/}	
 \end{itemize}
 
 \end{document}
